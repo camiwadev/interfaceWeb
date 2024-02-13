@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <title>Cawami</title>
+    <link href="assets/plugins/aos/aos.min.css" rel="stylesheet">
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/plugins/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="assets/plugins/OwlCarousel2/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/plugins/OwlCarousel2/css/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/plugins/jquery-fancyfileuploader/fancy-file-uploader/fancy_fileupload.css" rel="stylesheet">
+    <link href="assets/plugins/ion.rangeSlider/ion.rangeSlider.min.css" rel="stylesheet">
+    <link href="assets/plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="assets/plugins/select2/select2.min.css" rel="stylesheet">
+    <link href="assets/plugins/select2-bootstrap-5/select2-bootstrap-5-theme.min.css" rel="stylesheet">
+    <!-- Custom style for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- start navbar -->
+    <nav class="custom-navbar navbar navbar-expand-lg navbar-fixed navbar-transfarent">
+        <div class="container">
+            <a class="navbar-brand m-0" href="index.html">
+                <img class="logo-white" src="assets/images/logo-white.png" alt="">
+                <img class="logo-dark" src="assets/images/logo.png" alt="">
+            </a>
+            <div class="d-flex order-lg-2">
+                <!-- start button -->
+                <a href="#" class="d-flex align-items-center justify-content-center p-0 btn-user position-relative" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Favourite">
+                    <i class="fa-solid fa-heart"></i>
+                    <span class="align-items-center bg-primary d-flex end-0 fs-11 justify-content-center nav-count position-absolute rounded-circle text-white">0</span>
+                </a>
+                <!-- end /. button -->
+                <!-- start button -->
+                <a href="#" class="d-flex align-items-center justify-content-center p-0 btn-user" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Sign In">
+                    <i class="fa-solid fa-user-plus"></i>
+                </a>
+                <!-- end /. button -->
+                <!-- start button -->
+                <!-- <button type="button" id="themeToggleBtn" class="align-items-center bg-transparent border-0 btn-user d-flex justify-content-center p-0">
+                    <i class="fa-solid fa-moon"></i>
+                </button> -->
+                <!-- end /. button -->
+                <!-- start button -->
+                <!-- <a href="add-listing.html" class="btn btn-primary d-none d-sm-flex fw-medium gap-2 hstack rounded-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                    </svg>
+                    <div class="vr d-none d-sm-inline-block"></div>
+                    <span class="d-none d-sm-inline-block">Add Listing</span>
+                </a> -->
+                <!-- end /. button -->
+                <!-- start navbar toggle button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span id="nav-icon" class="">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </button>
+                <!-- end /. navbar toggle button -->
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" aria-current="page" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                            Item
+                        </a>
+                    </li>                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Item</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Item</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Item</a>
+                    </li>
+                    
+                </ul>
+                <!-- <div class="d-sm-none">
+                    
+                    <a href="https://theme.easital.com/html/liston/v2.3/signin.html" class="btn btn-primary d-flex gap-2 hstack justify-content-center rounded-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                        </svg>
+                        <div class="vr d-none d-sm-inline-block"></div>
+                        <span>Add Listing</span>
+                    </a>
+                   
+                </div> -->
+            </div>
+        </div>
+    </nav>
+    <!-- end /. navbar -->
+    <!-- start hero header (classic) -->
+    <div class="align-items-center bg-dark d-flex hero-header-classic overflow-hidden position-relative">
+        <!-- start background image -->
+        <div class="bg-image-overlay bg-gradient-vertical js-bg-image bg-cover bottom-0 end-0 position-absolute start-0 top-0" data-image-src="assets/images/header/lg-02.jpg"></div>
+        <!-- end /. background image -->
+        <div class="container position-relative z-1">
+            <div class="hero-header-subtitle text-center text-white text-uppercase mb-3">Bienvenid@s a CAMIWA</div>
+            <h1 class="display-1 fw-bold hero-header_title text-capitalize text-white text-center mb-5">Tu directorio <br class="d-none d-lg-block"> <span class="font-caveat text-span">Medico</span> </h1>
+            <div class="lead mb-4 mb-sm-5 text-center text-white">Donde quiera que te lleve el viaje, estamos aquí para cuidar de ti.</div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <!-- start search content -->
+                    <div class="border-0 card d-flex flex-md-row position-relative search-wrapper">
+                        <div class="align-items-center d-flex search-field w-100">
+                            <div class="svg-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                </svg>
+                            </div>
+                            <!-- start input -->
+                            <input type="email" class="form-control search-input" placeholder="Especialidad, centro médico?">
+                            <!-- end /. input -->
+                        </div>
+                        <div class="vertical-divider"></div>
+                        <div class="align-items-center d-flex search-field w-100">
+                            <div class="svg-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                </svg>
+                            </div>
+                            <!-- start select -->
+                            <select class="form-select search-select-field">
+                                <option selected>Ubicación</option>
+                                <option value="1">Bogota, Colombia</option>
+                                <option value="2">Quito, Ecuador</option>
+                                <option value="3"></option>
+                            </select>
+                            <!-- end /. select -->
+                        </div>
+                        <input type="submit" value="Buscar" class="btn btn-primary rounded-5 mt-3 mt-md-0">
+                    </div>
+                    <!-- end /. search content -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end /. hero header (classic) -->
+    <!-- start categories -->
+    <div class="bg-dark overflow-hidden position-relative py-5 text-white">
+        <div class="container pb-4">
+            <div class="row justify-content-center">
+                <div class="col-sm-10 col-md-10 col-lg-8 col-xl-7">
+                    <!-- start section header -->
+                    <div class="section-header text-center mb-5" data-aos="fade-down">
+                        <!-- start subtitle -->
+                        <div class="d-inline-block font-caveat fs-1 fw-medium section-header__subtitle text-capitalize text-primary">Especialidades</div>
+                        <!-- end /. subtitle -->
+                        <!-- start title -->
+                        <h2 class="display-5 fw-semibold mb-3 section-header__title text-capitalize">Tu medico a la mano</h2>
+                        <!-- end /. title -->
+                        <!-- start description -->
+                        <div class="sub-title fs-16">Explora las especialidades médicas y encuentra el cuidado que necesitas en cualquier parte del mundo.  <span class="text-primary fw-semibold">Selecciona tu área de interés para comenzar tu búsqueda</span></div>
+                        <!-- end /. description -->
+                    </div>
+                    <!-- end /. section header -->
+                </div>
+            </div>
+            <div class="row g-3 g-ld-4">
+                <div class="col-lg-4 col-md-6 col-sm-6 d-flex">
+                    <!-- start category -->
+                    <div class="align-items-center bg-blur border-0 card-hover d-flex flex-fill flex-wrap p-3 p-sm-3 rounded-4 shadow-sm w-100">
+                        <div class="flex-shrink-0">
+                            <div class="align-items-center bg-dark category-icon-box d-flex fs-4 justify-content-center rounded-3 text-primary">
+                                <i class="fa-solid fa-building-user"></i>
+                            </div>
+                        </div>
+                        <div class="flex-grow-1 ms-2 ms-md-3">
+                            <h3 class="fs-19 fw-semibold mb-1"><a href="#">Odontología</a></h3>
+                            <p class="mb-0 small">99+</p>
+                        </div>
+                        <a href="#" class="align-items-center d-flex fw-semibold gap-2 link-hover">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <!-- end /. category -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 d-flex">
+                    <!-- start category -->
+                    <div class="align-items-center bg-blur border-0 card-hover d-flex flex-fill flex-wrap p-3 p-sm-3 rounded-4 shadow-sm w-100">
+                        <div class="flex-shrink-0">
+                            <div class="align-items-center bg-dark category-icon-box d-flex fs-4 justify-content-center rounded-3 text-primary">
+                                <i class="fa-solid fa-building-user"></i>
+                            </div>
+                        </div>
+                        <div class="flex-grow-1 ms-2 ms-md-3">
+                            <h3 class="fs-19 fw-semibold mb-1"><a href="#">Especialidades</a></h3>
+                            <p class="mb-0 small">99+</p>
+                        </div>
+                        <a href="#" class="align-items-center d-flex fw-semibold gap-2 link-hover">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <!-- end /. category -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 d-flex">
+                    <!-- start category -->
+                    <div class="align-items-center bg-blur border-0 card-hover d-flex flex-fill flex-wrap p-3 p-sm-3 rounded-4 shadow-sm w-100">
+                        <div class="flex-shrink-0">
+                            <div class="align-items-center bg-dark category-icon-box d-flex fs-4 justify-content-center rounded-3 text-primary">
+                                <i class="fa-solid fa-building-user"></i>
+                            </div>
+                        </div>
+                        <div class="flex-grow-1 ms-2 ms-md-3">
+                            <h3 class="fs-19 fw-semibold mb-1"><a href="#">ESpecialidades</a></h3>
+                            <p class="mb-0 small">99+</p>
+                        </div>
+                        <a href="#" class="align-items-center d-flex fw-semibold gap-2 link-hover">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <!-- end /. category -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 d-flex">
+                    <!-- start category -->
+                    <div class="align-items-center bg-blur border-0 card-hover d-flex flex-fill flex-wrap p-3 p-sm-3 rounded-4 shadow-sm w-100">
+                        <div class="flex-shrink-0">
+                            <div class="align-items-center bg-dark category-icon-box d-flex fs-4 justify-content-center rounded-3 text-primary">
+                                <i class="fa-solid fa-building-user"></i>
+                            </div>
+                        </div>
+                        <div class="flex-grow-1 ms-2 ms-md-3">
+                            <h3 class="fs-19 fw-semibold mb-1"><a href="#">ESpecialidades</a></h3>
+                            <p class="mb-0 small">99+</p>
+                        </div>
+                        <a href="#" class="align-items-center d-flex fw-semibold gap-2 link-hover">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <!-- end /. category -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 d-flex">
+                    <!-- start category -->
+                    <div class="align-items-center bg-blur border-0 card-hover d-flex flex-fill flex-wrap p-3 p-sm-3 rounded-4 shadow-sm w-100">
+                        <div class="flex-shrink-0">
+                            <div class="align-items-center bg-dark category-icon-box d-flex fs-4 justify-content-center rounded-3 text-primary">
+                                <i class="fa-solid fa-building-user"></i>
+                            </div>
+                        </div>
+                        <div class="flex-grow-1 ms-2 ms-md-3">
+                            <h3 class="fs-19 fw-semibold mb-1"><a href="#">ESpecialidades</a></h3>
+                            <p class="mb-0 small">99+</p>
+                        </div>
+                        <a href="#" class="align-items-center d-flex fw-semibold gap-2 link-hover">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <!-- end /. category -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 d-flex">
+                    <!-- start category -->
+                    <div class="align-items-center bg-blur border-0 card-hover d-flex flex-fill flex-wrap p-3 p-sm-3 rounded-4 shadow-sm w-100">
+                        <div class="flex-shrink-0">
+                            <div class="align-items-center bg-dark category-icon-box d-flex fs-4 justify-content-center rounded-3 text-primary">
+                                <i class="fa-solid fa-building-user"></i>
+                            </div>
+                        </div>
+                        <div class="flex-grow-1 ms-2 ms-md-3">
+                            <h3 class="fs-19 fw-semibold mb-1"><a href="#">ESpecialidades</a></h3>
+                            <p class="mb-0 small">99+</p>
+                        </div>
+                        <a href="#" class="align-items-center d-flex fw-semibold gap-2 link-hover">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <!-- end /. category -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end /. categories -->
+    <!-- start process -->
+    <div class="py-3 py-xl-5 bg-gradient">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-10 col-md-10 col-lg-8 col-xl-7">
+                    <!-- start section header -->
+                    <div class="section-header text-center mb-5" data-aos="fade-down">
+                        <!-- start subtitle -->
+                        <div class="d-inline-block font-caveat fs-1 fw-medium section-header__subtitle text-capitalize text-primary">Médicos destacados</div>
+                        <!-- end /. subtitle -->
+                        <!-- start title -->
+                        <h2 class="display-5 fw-semibold mb-3 section-header__title text-capitalize">Encuentra médicos donde quiera que vayas. </h2>
+                        <!-- end /. title -->
+                        <!-- start description -->
+                        <div class="sub-title fs-16">Expertos<span class="text-primary fw-semibold"> en sus campos y comprometidos con tu bienestar.</span></div>
+                        <!-- end /. description -->
+                    </div>
+                    <!-- end /. section header -->
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-xl-10 ps-lg-4 ps-xl-5 sidebar">
+                    <!-- start toolbox  -->
+                    <div class="d-flex flex-wrap align-items-center mb-3 gap-2">
+                        <div class="col fs-18 text-nowrap">Todo <span class="fw-bold text-dark">9,069</span> Destacados</div>
+                        <!-- start button group -->
+                        <div class="border-0 card d-inline-flex flex-row flex-wrap gap-1 p-1 rounded-3 shadow-sm">
+                            <a href="#" class="btn btn-light btn-sm px-2 py-1"><i class="fa-solid fa-border-all"></i></a>
+                            <a href="#" class="btn btn-light btn-sm px-2 py-1"><i class="fa-solid fa-list"></i></a>
+                        </div>
+                        <!-- end /. button group -->
+                    </div>
+                    <!-- end /. toolbox  -->
+                    <div class="row g-4 mb-5">
+                        <div class="col-sm-4 col-lg-4 col-xl-4">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 w-100 flex-fill overflow-hidden border-0 dark-overlay card-hover">
+                                <!-- start card link -->
+                                <a href="#" class="stretched-link z-2"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden">
+                                    <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
+                                    <!-- <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">10% OFF</div>
+                                    <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">$100 off $399: eblwc</div> -->
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-2">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="bottom-0 d-flex flex-column p-4 position-absolute position-relative text-white w-100 z-1">
+                                    <div class="align-items-center card-start d-flex flex-wrap gap-1 mb-1">
+                                        <!-- start ratings -->
+                                        <i class="fa-solid fa-star"></i>
+                                        <!-- end /. ratings -->
+                                        <!-- start ratings counter text -->
+                                        <span class="fw-medium"><span class="fs-6 fw-semibold me-1">(4.5)</span>2,391 reviews</span>
+                                        <!-- end /. ratings counter text -->
+                                    </div>
+                                    <!-- start card title -->
+                                    <h4 class="fs-18  mb-0">
+                                        Camilo Restrepo
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
+                                            <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"></path>
+                                        </svg>
+                                    </h4>
+                                    <!-- end /. card title -->
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-4 col-lg-4 col-xl-4">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 w-100 flex-fill overflow-hidden border-0 dark-overlay card-hover">
+                                <!-- start card link -->
+                                <a href="#" class="stretched-link z-2"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden">
+                                    <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
+                                    <!-- <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">10% OFF</div>
+                                    <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">$100 off $399: eblwc</div> -->
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-2">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="medico">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="bottom-0 d-flex flex-column p-4 position-absolute position-relative text-white w-100 z-1">
+                                    <div class="align-items-center card-start d-flex flex-wrap gap-1 mb-1">
+                                        <!-- start ratings -->
+                                        <i class="fa-solid fa-star"></i>
+                                        <!-- end /. ratings -->
+                                        <!-- start ratings counter text -->
+                                        <span class="fw-medium"><span class="fs-6 fw-semibold me-1">(4.5)</span>2,391 reviews</span>
+                                        <!-- end /. ratings counter text -->
+                                    </div>
+                                    <!-- start card title -->
+                                    <h4 class="fs-18  mb-0">
+                                        Camilo Restrepo
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
+                                            <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"></path>
+                                        </svg>
+                                    </h4>
+                                    <!-- end /. card title -->
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-4 col-lg-4 col-xl-4">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 w-100 flex-fill overflow-hidden border-0 dark-overlay card-hover">
+                                <!-- start card link -->
+                                <a href="#" class="stretched-link z-2"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden">
+                                    <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
+                                    <!-- <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">10% OFF</div>
+                                    <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">$100 off $399: eblwc</div> -->
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-2">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="bottom-0 d-flex flex-column p-4 position-absolute position-relative text-white w-100 z-1">
+                                    <div class="align-items-center card-start d-flex flex-wrap gap-1 mb-1">
+                                        <!-- start ratings -->
+                                        <i class="fa-solid fa-star"></i>
+                                        <!-- end /. ratings -->
+                                        <!-- start ratings counter text -->
+                                        <span class="fw-medium"><span class="fs-6 fw-semibold me-1">(4.5)</span>2,391 reviews</span>
+                                        <!-- end /. ratings counter text -->
+                                    </div>
+                                    <!-- start card title -->
+                                    <h4 class="fs-18  mb-0">
+                                        Camilo Restrepo
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
+                                            <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"></path>
+                                        </svg>
+                                    </h4>
+                                    <!-- end /. card title -->
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-4 col-lg-4 col-xl-4">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 w-100 flex-fill overflow-hidden border-0 dark-overlay card-hover">
+                                <!-- start card link -->
+                                <a href="#" class="stretched-link z-2"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden">
+                                    <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
+                                    <!-- <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">10% OFF</div>
+                                    <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">$100 off $399: eblwc</div> -->
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-2">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="bottom-0 d-flex flex-column p-4 position-absolute position-relative text-white w-100 z-1">
+                                    <div class="align-items-center card-start d-flex flex-wrap gap-1 mb-1">
+                                        <!-- start ratings -->
+                                        <i class="fa-solid fa-star"></i>
+                                        <!-- end /. ratings -->
+                                        <!-- start ratings counter text -->
+                                        <span class="fw-medium"><span class="fs-6 fw-semibold me-1">(4.5)</span>2,391 reviews</span>
+                                        <!-- end /. ratings counter text -->
+                                    </div>
+                                    <!-- start card title -->
+                                    <h4 class="fs-18  mb-0">
+                                        Camilo Restrepo
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
+                                            <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"></path>
+                                        </svg>
+                                    </h4>
+                                    <!-- end /. card title -->
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-4 col-lg-4 col-xl-4">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 w-100 flex-fill overflow-hidden border-0 dark-overlay card-hover">
+                                <!-- start card link -->
+                                <a href="#" class="stretched-link z-2"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden">
+                                    <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
+                                    <!-- <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">10% OFF</div>
+                                    <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">$100 off $399: eblwc</div> -->
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-2">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="bottom-0 d-flex flex-column p-4 position-absolute position-relative text-white w-100 z-1">
+                                    <div class="align-items-center card-start d-flex flex-wrap gap-1 mb-1">
+                                        <!-- start ratings -->
+                                        <i class="fa-solid fa-star"></i>
+                                        <!-- end /. ratings -->
+                                        <!-- start ratings counter text -->
+                                        <span class="fw-medium"><span class="fs-6 fw-semibold me-1">(4.5)</span>2,391 reviews</span>
+                                        <!-- end /. ratings counter text -->
+                                    </div>
+                                    <!-- start card title -->
+                                    <h4 class="fs-18  mb-0">
+                                        Camilo Restrepo
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
+                                            <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"></path>
+                                        </svg>
+                                    </h4>
+                                    <!-- end /. card title -->
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-4 col-lg-4 col-xl-4">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 w-100 flex-fill overflow-hidden border-0 dark-overlay card-hover">
+                                <!-- start card link -->
+                                <a href="#" class="stretched-link z-2"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden">
+                                    <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
+                                    <!-- <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">10% OFF</div>
+                                    <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">$100 off $399: eblwc</div> -->
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-2">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="bottom-0 d-flex flex-column p-4 position-absolute position-relative text-white w-100 z-1">
+                                    <div class="align-items-center card-start d-flex flex-wrap gap-1 mb-1">
+                                        <!-- start ratings -->
+                                        <i class="fa-solid fa-star"></i>
+                                        <!-- end /. ratings -->
+                                        <!-- start ratings counter text -->
+                                        <span class="fw-medium"><span class="fs-6 fw-semibold me-1">(4.5)</span>2,391 reviews</span>
+                                        <!-- end /. ratings counter text -->
+                                    </div>
+                                    <!-- start card title -->
+                                    <h4 class="fs-18  mb-0">
+                                        Camilo Restrepo
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
+                                            <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"></path>
+                                        </svg>
+                                    </h4>
+                                    <!-- end /. card title -->
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                    </div>
+                    <!-- start pagination -->
+                    <nav class="justify-content-center mt-5 pagination align-items-center">
+                        <a class="prev page-numbers" href="##">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z" />
+                            </svg>
+                            previous
+                        </a>
+                        <span class="page-numbers current">1</span>
+                        <a class="page-numbers" href="##">2</a>
+                        <a class="next page-numbers" href="##">
+                            next
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </nav>
+                    <!-- end /. pagination -->
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <!-- end /. footer -->
+    <!-- Optional JavaScript -->
+    <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/plugins/jQuery/jquery.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/plugins/aos/aos.min.js"></script>
+    <script src="assets/plugins/macy/macy.js"></script>
+    <script src="assets/plugins/simple-parallax/simpleParallax.min.js"></script>
+    <script src="assets/plugins/OwlCarousel2/owl.carousel.min.js"></script>
+    <script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.min.js"></script>
+    <script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.min.js"></script>
+    <script src="assets/plugins/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/plugins/counter-up/jquery.counterup.min.js"></script>
+    <script src="assets/plugins/jquery-fancyfileuploader/fancy-file-uploader/jquery.ui.widget.js"></script>
+    <script src="assets/plugins/jquery-fancyfileuploader/fancy-file-uploader/jquery.fileupload.js"></script>
+    <script src="assets/plugins/jquery-fancyfileuploader/fancy-file-uploader/jquery.iframe-transport.js"></script>
+    <script src="assets/plugins/jquery-fancyfileuploader/fancy-file-uploader/jquery.fancy-fileupload.js"></script>
+    <script src="assets/plugins/ion.rangeSlider/ion.rangeSlider.min.js"></script>
+    <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/plugins/select2/select2.min.js"></script>
+    <!-- Custom script for this template -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
