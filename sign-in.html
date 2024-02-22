@@ -42,67 +42,78 @@
 
 <body>
     <!-- start navbar -->
-    <nav class="custom-navbar navbar navbar-expand-lg navbar-fixed navbar-transfarent">
-        <div class="container">
-            <a class="navbar-brand m-0" href="index.html">
-                <img class="logo-white" src="assets/images/logo-white.png" alt="">
-                <img class="logo-dark" src="assets/images/logo.png" alt="">
-            </a>
-            <div class="d-flex order-lg-2">
-                <!-- start button -->
-                <a href="#" class="d-flex align-items-center justify-content-center p-0 btn-user position-relative" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Favourite">
-                    <i class="fa-solid fa-heart"></i>
-                    <span class="align-items-center bg-primary d-flex end-0 fs-11 justify-content-center nav-count position-absolute rounded-circle text-white">0</span>
+    <div class="border-0 card header rounded-0 sticky-top">
+        <!-- start navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand m-0" href="index.html">
+                    <img class="logo-white" src="assets/images/logo-white.png" alt="">
+                    <img class="logo-dark" src="assets/images/logo.png" alt="">
                 </a>
-                <!-- end /. button -->
-                <!-- start button -->
-                <a href="sign-in.html" class="d-flex align-items-center justify-content-center p-0 btn-user" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Inicio de sesion">
-                    <i class="fa-solid fa-user-plus"></i>
-                </a>
-                <!-- end /. button -->
-               
-                <!-- start button -->
-                <a href="#" class="btn btn-primary d-none d-sm-flex fw-medium gap-2 hstack rounded-5">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
-                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
-                    </svg>
-                    <div class="vr d-none d-sm-inline-block"></div>
-                    <span class="d-none d-sm-inline-block">País</span>
-                </a>
-                <!-- end /. button -->
-                <!-- start navbar toggle button -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span id="nav-icon" class="">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </span>
-                </button>
-                <!-- end /. navbar toggle button -->
-            </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" aria-current="page" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
-                            Item
-                        </a>
-                    </li>                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Item</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Item</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Item</a>
-                    </li>
+                <div class="d-flex order-lg-2">
+                    <a href="sign-in.html" class="d-flex align-items-center justify-content-center p-0 btn-user" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Inicio de sesion">
+                        <i class="fa-solid fa-user-plus"></i>
+                    </a>
+                    <!-- end /. button -->
+                   
+                    <!-- start button -->
+                    <a href="#" class="btn btn-primary d-none d-sm-flex fw-medium gap-2 hstack rounded-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                        </svg>
+                        <div class="vr d-none d-sm-inline-block"></div>
+                        <span class="d-none d-sm-inline-block">País</span>
+                    </a>
                     
-                </ul>
-                
+                    <!-- end /. button -->
+                    <!-- start navbar toggle button -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span id="nav-icon" class="">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </button>
+                    <!-- end /. navbar toggle button -->
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" aria-current="page" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                Especialistas
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="allspeciality.html">Especialista 1</a></li>
+                                <li><a class="dropdown-item" href="#">Especialista 2</a></li>
+                                <li><a class="dropdown-item" href="#">Especialista 3</a></li>
+                               
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" aria-current="page" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                Camiwa
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Quienes somos</a></li>
+                                <li><a class="dropdown-item" href="#">Novedades</a></li>
+                                <li><a class="dropdown-item" href="#">FAQS</a></li>
+                                                              
+                            </ul>
+                        </li>
+                                     
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        
+                        
+                    </ul>
+                   
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
     <!-- end /. navbar -->
     <div class="p-3 p-sm-5">
         <div class="row g-4 g-xl-5 justify-content-between">
@@ -286,7 +297,6 @@
     </footer>
     <!-- end /. footer -->
     <!-- Optional JavaScript -->
-    <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/plugins/jQuery/jquery.min.js"></script>
     <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/plugins/aos/aos.min.js"></script>
     <script src="assets/plugins/macy/macy.js"></script>
