@@ -2798,7 +2798,7 @@ hr {
     }
 
     .items-content {
-        width: 1400px;
+        width: 100%;
     }
 
     .sidebar-filters.active {
