@@ -58,7 +58,7 @@
                     <!-- end /. button -->
                    
                     <!-- start button -->
-                    <a href="#" class="btn btn-primary d-none d-sm-flex fw-medium gap-2 hstack rounded-5">
+                    <!-- <a href="#" class="btn btn-primary d-none d-sm-flex fw-medium gap-2 hstack rounded-5">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
                             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                             <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
@@ -66,6 +66,14 @@
                         <div class="vr d-none d-sm-inline-block"></div>
                         <span class="d-none d-sm-inline-block">País</span>
                     </a>
+                    <a href="#" class="btn btn-primary d-none d-sm-flex fw-medium gap-2 hstack rounded-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                        </svg>
+                        <div class="vr d-none d-sm-inline-block"></div>
+                        <span class="d-none d-sm-inline-block">Ciudad</span>
+                    </a> -->
                     
                     <!-- end /. button -->
                     <!-- start navbar toggle button -->
@@ -136,7 +144,7 @@
                                 </svg>
                             </div>
                             <!-- start input -->
-                            <input type="email" class="form-control search-input" placeholder="Nombre del Especialista o Categoria">
+                            <input type="email" class="form-control search-input" placeholder="Directorio del Especialistas">
                             <!-- end /. input -->
                         </div>
                         <div class="vertical-divider"></div>
@@ -149,10 +157,26 @@
                             </div>
                             <!-- start select -->
                             <select class="form-select search-select-field">
-                                <option selected>Ciudades</option>
-                                <option value="1">Bogota, Colombia</option>
-                                <option value="2">Quito, Ecuador</option>
-                                <option value="3"></option>
+                                <option selected>Pais</option>
+                                <option value="1">Colombia</option>
+                                <option value="2">Ecuador</option>
+                                <option value="3">México</option>
+                            </select>
+                            <!-- end /. select -->
+                        </div>
+                        <div class="align-items-center d-flex search-field w-100">
+                            <div class="svg-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                </svg>
+                            </div>
+                            <!-- start select -->
+                            <select class="form-select search-select-field">
+                                <option selected>Ciudad</option>
+                                <option value="1">Bogota</option>
+                                <option value="2">Quito</option>
+                                <option value="3">Ciudad</option>
                             </select>
                             <!-- end /. select -->
                         </div>
@@ -185,7 +209,7 @@
                 </div>
             </div>
             <div class="items-carousel owl-carousel owl-theme owl-nav-center">
-                <!-- start listing card -->
+               
                 <div class="bg-transparent border-0 card card-hover-bg flex-fill overflow-hidden rounded-4 card-width">
                     <!-- start card image wrap -->
                     <div class="align-items-center bg-blur border-0 card-hover d-flex flex-fill flex-wrap p-3 p-sm-3 rounded-4 shadow-sm w-100">
@@ -206,8 +230,8 @@
                     </div>
                     <!-- end /. price -->
                 </div>
-                <!-- end /. listing card -->
-                <!-- start listing card -->
+                
+               
                 <div class="bg-transparent border-0 card card-hover-bg flex-fill overflow-hidden rounded-4 card-width">
                     <!-- start card image wrap -->
                     <div class="align-items-center bg-blur border-0 card-hover d-flex flex-fill flex-wrap p-3 p-sm-3 rounded-4 shadow-sm w-100">
@@ -228,8 +252,8 @@
                     </div>
                     <!-- end /. price -->
                 </div>
-                <!-- end /. listing card -->
-                <!-- start listing card -->
+                
+               
                 <div class="bg-transparent border-0 card card-hover-bg flex-fill overflow-hidden rounded-4 card-width">
                     <div class="align-items-center bg-blur border-0 card-hover d-flex flex-fill flex-wrap p-3 p-sm-3 rounded-4 shadow-sm w-100">
                         <div class="flex-shrink-0">
@@ -248,8 +272,8 @@
                         </a>
                     </div>
                 </div>
-                <!-- end /. listing card -->
-                <!-- start listing card -->
+                
+               
                 <div class="bg-transparent border-0 card card-hover-bg flex-fill overflow-hidden rounded-4 card-width">
                     <div class="align-items-center bg-blur border-0 card-hover d-flex flex-fill flex-wrap p-3 p-sm-3 rounded-4 shadow-sm w-100">
                         <div class="flex-shrink-0">
@@ -268,7 +292,7 @@
                         </a>
                     </div>
                 </div>
-                <!-- end /. listing card -->
+                
             </div>
         </div>
     </div>
@@ -294,32 +318,18 @@
                 </div>
             </div>
             <div class="row">
-                
-                <div class="col-xl-10 ps-lg-4 ps-xl-5 sidebar">
-                    <!-- start toolbox  -->
-                    <div class="d-flex flex-wrap align-items-center mb-3 gap-2">
-                        <div class="col fs-18 text-nowrap">Todo <span class="fw-bold text-dark">9,069</span> Destacados</div>
-                        <!-- start button group -->
-                        <div class="border-0 card d-inline-flex flex-row flex-wrap gap-1 p-1 rounded-3 shadow-sm">
-                            <a href="#" class="btn btn-light btn-sm px-2 py-1"><i class="fa-solid fa-border-all"></i></a>
-                            <a href="#" class="btn btn-light btn-sm px-2 py-1"><i class="fa-solid fa-list"></i></a>
-                        </div>
-                        <!-- end /. button group -->
-                    </div>
+                    
                     <!-- end /. toolbox  -->
-                    <div class="row g-4 mb-5">
+                    <!-- <div class="row g-4 mb-5">
                         <div class="col-sm-4 col-lg-4 col-xl-4">
-                            <!-- start listing card -->
+                            
                             <div class="card rounded-3 w-100 flex-fill overflow-hidden border-0 dark-overlay card-hover">
-                                <!-- start card link -->
+                               
                                 <a href="#" class="stretched-link z-2"></a>
-                                <!-- end /. card link -->
-                                <!-- start card image wrap -->
+                                
                                 <div class="card-img-wrap card-image-hover overflow-hidden">
                                     <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
-                                    <!-- <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">10% OFF</div>
-                                    <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">$100 off $399: eblwc</div> -->
-                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-2">
+                                   <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-2">
                                         <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
                                                 <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
@@ -327,39 +337,35 @@
                                         </a>
                                     </div>
                                 </div>
-                                <!-- end /. card image wrap -->
+                               
                                 <div class="bottom-0 d-flex flex-column p-4 position-absolute position-relative text-white w-100 z-1">
                                     <div class="align-items-center card-start d-flex flex-wrap gap-1 mb-1">
-                                        <!-- start ratings -->
+                                       
                                         <i class="fa-solid fa-star"></i>
-                                        <!-- end /. ratings -->
-                                        <!-- start ratings counter text -->
+                                      
                                         <span class="fw-medium"><span class="fs-6 fw-semibold me-1">(4.5)</span>2,391 reviews</span>
-                                        <!-- end /. ratings counter text -->
+                                       
                                     </div>
-                                    <!-- start card title -->
+                                    
                                     <h4 class="fs-18  mb-0">
                                         Camilo Restrepo
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
                                             <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"></path>
                                         </svg>
                                     </h4>
-                                    <!-- end /. card title -->
+                                   
                                 </div>
                             </div>
-                            <!-- end /. listing card -->
+                            
                         </div>
                         <div class="col-sm-4 col-lg-4 col-xl-4">
-                            <!-- start listing card -->
+                            
                             <div class="card rounded-3 w-100 flex-fill overflow-hidden border-0 dark-overlay card-hover">
-                                <!-- start card link -->
+                               
                                 <a href="#" class="stretched-link z-2"></a>
-                                <!-- end /. card link -->
-                                <!-- start card image wrap -->
+                                
                                 <div class="card-img-wrap card-image-hover overflow-hidden">
                                     <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
-                                    <!-- <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">10% OFF</div>
-                                    <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">$100 off $399: eblwc</div> -->
                                     <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-2">
                                         <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="medico">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
@@ -368,39 +374,35 @@
                                         </a>
                                     </div>
                                 </div>
-                                <!-- end /. card image wrap -->
+                               
                                 <div class="bottom-0 d-flex flex-column p-4 position-absolute position-relative text-white w-100 z-1">
                                     <div class="align-items-center card-start d-flex flex-wrap gap-1 mb-1">
-                                        <!-- start ratings -->
+                                       
                                         <i class="fa-solid fa-star"></i>
-                                        <!-- end /. ratings -->
-                                        <!-- start ratings counter text -->
+                                      
                                         <span class="fw-medium"><span class="fs-6 fw-semibold me-1">(4.5)</span>2,391 reviews</span>
-                                        <!-- end /. ratings counter text -->
+                                       
                                     </div>
-                                    <!-- start card title -->
+                                    
                                     <h4 class="fs-18  mb-0">
                                         Camilo Restrepo
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
                                             <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"></path>
                                         </svg>
                                     </h4>
-                                    <!-- end /. card title -->
+                                   
                                 </div>
                             </div>
-                            <!-- end /. listing card -->
+                            
                         </div>
                         <div class="col-sm-4 col-lg-4 col-xl-4">
-                            <!-- start listing card -->
+                            
                             <div class="card rounded-3 w-100 flex-fill overflow-hidden border-0 dark-overlay card-hover">
-                                <!-- start card link -->
+                               
                                 <a href="#" class="stretched-link z-2"></a>
-                                <!-- end /. card link -->
-                                <!-- start card image wrap -->
+                                
                                 <div class="card-img-wrap card-image-hover overflow-hidden">
                                     <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
-                                    <!-- <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">10% OFF</div>
-                                    <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">$100 off $399: eblwc</div> -->
                                     <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-2">
                                         <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
@@ -409,39 +411,35 @@
                                         </a>
                                     </div>
                                 </div>
-                                <!-- end /. card image wrap -->
+                               
                                 <div class="bottom-0 d-flex flex-column p-4 position-absolute position-relative text-white w-100 z-1">
                                     <div class="align-items-center card-start d-flex flex-wrap gap-1 mb-1">
-                                        <!-- start ratings -->
+                                       
                                         <i class="fa-solid fa-star"></i>
-                                        <!-- end /. ratings -->
-                                        <!-- start ratings counter text -->
+                                      
                                         <span class="fw-medium"><span class="fs-6 fw-semibold me-1">(4.5)</span>2,391 reviews</span>
-                                        <!-- end /. ratings counter text -->
+                                       
                                     </div>
-                                    <!-- start card title -->
+                                    
                                     <h4 class="fs-18  mb-0">
                                         Camilo Restrepo
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
                                             <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"></path>
                                         </svg>
                                     </h4>
-                                    <!-- end /. card title -->
+                                   
                                 </div>
                             </div>
-                            <!-- end /. listing card -->
+                            
                         </div>
                         <div class="col-sm-4 col-lg-4 col-xl-4">
-                            <!-- start listing card -->
+                            
                             <div class="card rounded-3 w-100 flex-fill overflow-hidden border-0 dark-overlay card-hover">
-                                <!-- start card link -->
+                               
                                 <a href="#" class="stretched-link z-2"></a>
-                                <!-- end /. card link -->
-                                <!-- start card image wrap -->
+                                
                                 <div class="card-img-wrap card-image-hover overflow-hidden">
                                     <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
-                                    <!-- <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">10% OFF</div>
-                                    <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">$100 off $399: eblwc</div> -->
                                     <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-2">
                                         <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
@@ -450,39 +448,35 @@
                                         </a>
                                     </div>
                                 </div>
-                                <!-- end /. card image wrap -->
+                               
                                 <div class="bottom-0 d-flex flex-column p-4 position-absolute position-relative text-white w-100 z-1">
                                     <div class="align-items-center card-start d-flex flex-wrap gap-1 mb-1">
-                                        <!-- start ratings -->
+                                       
                                         <i class="fa-solid fa-star"></i>
-                                        <!-- end /. ratings -->
-                                        <!-- start ratings counter text -->
+                                      
                                         <span class="fw-medium"><span class="fs-6 fw-semibold me-1">(4.5)</span>2,391 reviews</span>
-                                        <!-- end /. ratings counter text -->
+                                       
                                     </div>
-                                    <!-- start card title -->
+                                    
                                     <h4 class="fs-18  mb-0">
                                         Camilo Restrepo
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
                                             <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"></path>
                                         </svg>
                                     </h4>
-                                    <!-- end /. card title -->
+                                   
                                 </div>
                             </div>
-                            <!-- end /. listing card -->
+                            
                         </div>
                         <div class="col-sm-4 col-lg-4 col-xl-4">
-                            <!-- start listing card -->
+                           
                             <div class="card rounded-3 w-100 flex-fill overflow-hidden border-0 dark-overlay card-hover">
-                                <!-- start card link -->
+                               
                                 <a href="#" class="stretched-link z-2"></a>
-                                <!-- end /. card link -->
-                                <!-- start card image wrap -->
+                                
                                 <div class="card-img-wrap card-image-hover overflow-hidden">
                                     <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
-                                    <!-- <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">10% OFF</div>
-                                    <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">$100 off $399: eblwc</div> -->
                                     <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-2">
                                         <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
@@ -491,39 +485,35 @@
                                         </a>
                                     </div>
                                 </div>
-                                <!-- end /. card image wrap -->
+                               
                                 <div class="bottom-0 d-flex flex-column p-4 position-absolute position-relative text-white w-100 z-1">
                                     <div class="align-items-center card-start d-flex flex-wrap gap-1 mb-1">
-                                        <!-- start ratings -->
+                                       
                                         <i class="fa-solid fa-star"></i>
-                                        <!-- end /. ratings -->
-                                        <!-- start ratings counter text -->
+                                      
                                         <span class="fw-medium"><span class="fs-6 fw-semibold me-1">(4.5)</span>2,391 reviews</span>
-                                        <!-- end /. ratings counter text -->
+                                       
                                     </div>
-                                    <!-- start card title -->
+                                    
                                     <h4 class="fs-18  mb-0">
                                         Camilo Restrepo
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
                                             <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"></path>
                                         </svg>
                                     </h4>
-                                    <!-- end /. card title -->
+                                   
                                 </div>
                             </div>
-                            <!-- end /. listing card -->
+                            
                         </div>
                         <div class="col-sm-4 col-lg-4 col-xl-4">
-                            <!-- start listing card -->
+                           
                             <div class="card rounded-3 w-100 flex-fill overflow-hidden border-0 dark-overlay card-hover">
-                                <!-- start card link -->
+                               
                                 <a href="#" class="stretched-link z-2"></a>
-                                <!-- end /. card link -->
-                                <!-- start card image wrap -->
+                                
                                 <div class="card-img-wrap card-image-hover overflow-hidden">
                                     <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
-                                    <!-- <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">10% OFF</div>
-                                    <div class="bg-primary card-badge d-inline-block text-white position-absolute z-1">$100 off $399: eblwc</div> -->
                                     <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-2">
                                         <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
@@ -532,48 +522,465 @@
                                         </a>
                                     </div>
                                 </div>
-                                <!-- end /. card image wrap -->
+                               
                                 <div class="bottom-0 d-flex flex-column p-4 position-absolute position-relative text-white w-100 z-1">
                                     <div class="align-items-center card-start d-flex flex-wrap gap-1 mb-1">
-                                        <!-- start ratings -->
+                                       
                                         <i class="fa-solid fa-star"></i>
-                                        <!-- end /. ratings -->
-                                        <!-- start ratings counter text -->
+                                      
                                         <span class="fw-medium"><span class="fs-6 fw-semibold me-1">(4.5)</span>2,391 reviews</span>
-                                        <!-- end /. ratings counter text -->
+                                       
                                     </div>
-                                    <!-- start card title -->
+                                    
                                     <h4 class="fs-18  mb-0">
                                         Camilo Restrepo
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
                                             <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"></path>
                                         </svg>
                                     </h4>
-                                    <!-- end /. card title -->
+                                   
                                 </div>
                             </div>
-                            <!-- end /. listing card -->
+                            
                         </div>
+                    </div> -->
+                    <div class="col-xl-12 ps-lg-4 ps-xl-5 sidebar">
+                        <!-- start toolbox  -->
+                        <div class="d-flex flex-wrap align-items-center mb-3 gap-2">
+                            <div class="col fs-18 text-nowrap">Todo <span class="fw-bold text-dark">9,069</span> Destacados</div>
+                            <!-- start button group -->
+                            <div class="border-0 card d-inline-flex flex-row flex-wrap gap-1 p-1 rounded-3 shadow-sm">
+                                <a href="#" class="btn btn-light btn-sm px-2 py-1"><i class="fa-solid fa-border-all"></i></a>
+                                <a href="#" class="btn btn-light btn-sm px-2 py-1"><i class="fa-solid fa-list"></i></a>
+                            </div>
+                            <!-- end /. button group -->
+                        </div>
+                        <!-- end /. toolbox  -->
+                        <div class="row g-4 mb-5">
+                            <div class="col-sm-4 col-lg-4 col-xl-4">
+                                <!-- start listing card -->
+                                <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                    <!-- start card link -->
+                                    <a href="#" class="stretched-link"></a>
+                                    <!-- end /. card link -->
+                                    <!-- start card image wrap -->
+                                    <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                        <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
+                                        
+                                        <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                            <a href="allspeciality.html" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- end /. card image wrap -->
+                                    <div class="d-flex flex-column h-100 position-relative p-3">
+                                        <div class="align-items-center bg-primary cat-icon d-flex justify-content-center position-absolute rounded-circle text-white">
+                                            <i class="fa-solid fa-person-circle-plus"></i></div>
+                                        <div class="align-items-center d-flex flex-wrap gap-1 text-primary card-start mb-1">
+                                            <!-- start ratings -->
+                                            <i class="fa-solid fa-star"></i>
+                                            <!-- end /. ratings -->
+                                            <!-- start ratings counter text -->
+                                            <span class="fw-medium text-primary">
+                                                <span class="fs-6 fw-semibold me-1">(4.5)</span>2,391 reviews</span>
+                                            <!-- end /. ratings counter text -->
+                                        </div>
+                                        <!-- start card title -->
+                                        <h4 class="fs-18 fw-semibold mb-0">
+                                            Especialidad
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
+                                                <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
+                                            </svg>
+                                        </h4>
+                                        <h5>Nombre del especialista</h5>
+                                                <p class="mb-0 small">Resumen de servicios</p>
+                                                <a href="#" class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#9b9b9b" class="bi bi-compass" viewBox="0 0 16 16">
+                                                        <path d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                                                        <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z" />
+                                                    </svg>
+                                                    <span>Ubicación</span>
+                                                </a>
+                                                <a href="#" class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                    <span>$</span> 200COP
+                                                </a>
+                                        <!-- end /. card title -->
+                                        <!-- start contact content -->
+                                        <div class="d-flex flex-wrap gap-3 mt-2 z-1">
+                                            <a  class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                <button type="submit" class="btn btn-primary btn-lg w-100" style="color: #000;
+                                                --bs-btn-bg: #fff;">Ver perfil</button>
+            
+                                            </a>
+                                            <a href="#" class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                <button type="submit" class="btn btn-primary btn-lg w-100">Consultar</button>
+            
+                                            </a>
+                                        </div>
+            
+                                        <!-- end contact content -->
+                                    </div>
+                                </div>
+                                <!-- end /. listing card -->
+                            </div>
+                            <div class="col-sm-4 col-lg-4 col-xl-4">
+                                <!-- start listing card -->
+                                <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                    <!-- start card link -->
+                                    <a href="#" class="stretched-link"></a>
+                                    <!-- end /. card link -->
+                                    <!-- start card image wrap -->
+                                    <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                        <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
+                                        
+                                        <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                            <a href="allspeciality.html" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- end /. card image wrap -->
+                                    <div class="d-flex flex-column h-100 position-relative p-3">
+                                        <div class="align-items-center bg-primary cat-icon d-flex justify-content-center position-absolute rounded-circle text-white"><i class="fa-solid fa-person-circle-plus"></i></div>
+                                        <div class="align-items-center d-flex flex-wrap gap-1 text-primary card-start mb-1">
+                                            <!-- start ratings -->
+                                            <i class="fa-solid fa-star"></i>
+                                            <!-- end /. ratings -->
+                                            <!-- start ratings counter text -->
+                                            <span class="fw-medium text-primary"><span class="fs-6 fw-semibold me-1">(4.5)</span>2,391 reviews</span>
+                                            <!-- end /. ratings counter text -->
+                                        </div>
+                                        <!-- start card title -->
+                                        <h4 class="fs-18 fw-semibold mb-0">
+                                            Especialidad
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
+                                                <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
+                                            </svg>
+                                        </h4>
+                                        <h5>Nombre del especialista</h5>
+                                                <p class="mb-0 small">Resumen de servicios</p>
+                                                <a href="#" class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#9b9b9b" class="bi bi-compass" viewBox="0 0 16 16">
+                                                        <path d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                                                        <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z" />
+                                                    </svg>
+                                                    <span>Ubicación</span>
+                                                </a>
+                                                <a href="#" class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                    <span>$</span> 200COP
+                                                </a>
+                                        <!-- end /. card title -->
+                                        <!-- start contact content -->
+                                        <div class="d-flex flex-wrap gap-3 mt-2 z-1">
+                                            <a  class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                <button type="submit" class="btn btn-primary btn-lg w-100" style="color: #000;
+                                                --bs-btn-bg: #fff;">Ver perfil</button>
+            
+                                            </a>
+                                            <a href="#" class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                <button type="submit" class="btn btn-primary btn-lg w-100">Consultar</button>
+            
+                                            </a>
+                                        </div>
+            
+                                        <!-- end contact content -->
+                                    </div>
+                                </div>
+                                <!-- end /. listing card -->
+                            </div>
+                            <div class="col-sm-4 col-lg-4 col-xl-4">
+                                <!-- start listing card -->
+                                <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                    <!-- start card link -->
+                                    <a href="#" class="stretched-link"></a>
+                                    <!-- end /. card link -->
+                                    <!-- start card image wrap -->
+                                    <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                        <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
+                                        
+                                        <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                            <a href="allspeciality.html" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- end /. card image wrap -->
+                                    <div class="d-flex flex-column h-100 position-relative p-3">
+                                        <div class="align-items-center bg-primary cat-icon d-flex justify-content-center position-absolute rounded-circle text-white"><i class="fa-solid fa-person-circle-plus"></i></div>
+                                        <div class="align-items-center d-flex flex-wrap gap-1 text-primary card-start mb-1">
+                                            <!-- start ratings -->
+                                            <i class="fa-solid fa-star"></i>
+                                            <!-- end /. ratings -->
+                                            <!-- start ratings counter text -->
+                                            <span class="fw-medium text-primary"><span class="fs-6 fw-semibold me-1">(4.5)</span>2,391 reviews</span>
+                                            <!-- end /. ratings counter text -->
+                                        </div>
+                                        <!-- start card title -->
+                                        <h4 class="fs-18 fw-semibold mb-0">
+                                            Especialidad
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
+                                                <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
+                                            </svg>
+                                        </h4>
+                                        <h5>Nombre del especialista</h5>
+                                                <p class="mb-0 small">Resumen de servicios</p>
+                                                <a href="#" class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#9b9b9b" class="bi bi-compass" viewBox="0 0 16 16">
+                                                        <path d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                                                        <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z" />
+                                                    </svg>
+                                                    <span>Ubicación</span>
+                                                </a>
+                                                <a href="#" class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                    <span>$</span> 200COP
+                                                </a>
+                                        <!-- end /. card title -->
+                                        <!-- start contact content -->
+                                        <div class="d-flex flex-wrap gap-3 mt-2 z-1">
+                                            <a  class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                <button type="submit" class="btn btn-primary btn-lg w-100" style="color: #000;
+                                                --bs-btn-bg: #fff;">Ver perfil</button>
+            
+                                            </a>
+                                            <a href="#" class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                <button type="submit" class="btn btn-primary btn-lg w-100">Consultar</button>
+            
+                                            </a>
+                                        </div>
+            
+                                        <!-- end contact content -->
+                                    </div>
+                                </div>
+                                <!-- end /. listing card -->
+                            </div>
+                            <div class="col-sm-4 col-lg-4 col-xl-4">
+                                <!-- start listing card -->
+                                <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                    <!-- start card link -->
+                                    <a href="#" class="stretched-link"></a>
+                                    <!-- end /. card link -->
+                                    <!-- start card image wrap -->
+                                    <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                        <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
+                                        
+                                        <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                            <a href="allspeciality.html" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- end /. card image wrap -->
+                                    <div class="d-flex flex-column h-100 position-relative p-3">
+                                        <div class="align-items-center bg-primary cat-icon d-flex justify-content-center position-absolute rounded-circle text-white"><i class="fa-solid fa-person-circle-plus"></i></div>
+                                        <div class="align-items-center d-flex flex-wrap gap-1 text-primary card-start mb-1">
+                                            <!-- start ratings -->
+                                            <i class="fa-solid fa-star"></i>
+                                            <!-- end /. ratings -->
+                                            <!-- start ratings counter text -->
+                                            <span class="fw-medium text-primary"><span class="fs-6 fw-semibold me-1">(4.5)</span>2,391 reviews</span>
+                                            <!-- end /. ratings counter text -->
+                                        </div>
+                                        <!-- start card title -->
+                                        <h4 class="fs-18 fw-semibold mb-0">
+                                            Especialidad
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
+                                                <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
+                                            </svg>
+                                        </h4>
+                                        <h5>Nombre del especialista</h5>
+                                                <p class="mb-0 small">Resumen de servicios</p>
+                                                <a href="#" class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#9b9b9b" class="bi bi-compass" viewBox="0 0 16 16">
+                                                        <path d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                                                        <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z" />
+                                                    </svg>
+                                                    <span>Ubicación</span>
+                                                </a>
+                                                <a href="#" class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                    <span>$</span> 200COP
+                                                </a>
+                                        <!-- end /. card title -->
+                                        <!-- start contact content -->
+                                        <div class="d-flex flex-wrap gap-3 mt-2 z-1">
+                                            <a  class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                <button type="submit" class="btn btn-primary btn-lg w-100" style="color: #000;
+                                                --bs-btn-bg: #fff;">Ver perfil</button>
+            
+                                            </a>
+                                            <a href="#" class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                <button type="submit" class="btn btn-primary btn-lg w-100">Consultar</button>
+            
+                                            </a>
+                                        </div>
+            
+                                        <!-- end contact content -->
+                                    </div>
+                                </div>
+                                <!-- end /. listing card -->
+                            </div>
+                            <div class="col-sm-4 col-lg-4 col-xl-4">
+                                <!-- start listing card -->
+                                <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                    <!-- start card link -->
+                                    <a href="#" class="stretched-link"></a>
+                                    <!-- end /. card link -->
+                                    <!-- start card image wrap -->
+                                    <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                        <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
+                                        
+                                        <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                            <a href="allspeciality.html" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- end /. card image wrap -->
+                                    <div class="d-flex flex-column h-100 position-relative p-3">
+                                        <div class="align-items-center bg-primary cat-icon d-flex justify-content-center position-absolute rounded-circle text-white"><i class="fa-solid fa-person-circle-plus"></i></div>
+                                        <div class="align-items-center d-flex flex-wrap gap-1 text-primary card-start mb-1">
+                                            <!-- start ratings -->
+                                            <i class="fa-solid fa-star"></i>
+                                            <!-- end /. ratings -->
+                                            <!-- start ratings counter text -->
+                                            <span class="fw-medium text-primary"><span class="fs-6 fw-semibold me-1">(4.5)</span>2,391 reviews</span>
+                                            <!-- end /. ratings counter text -->
+                                        </div>
+                                        <!-- start card title -->
+                                        <h4 class="fs-18 fw-semibold mb-0">
+                                            Especialidad
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
+                                                <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
+                                            </svg>
+                                        </h4>
+                                        <h5>Nombre del especialista</h5>
+                                                <p class="mb-0 small">Resumen de servicios</p>
+                                                <a href="#" class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#9b9b9b" class="bi bi-compass" viewBox="0 0 16 16">
+                                                        <path d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                                                        <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z" />
+                                                    </svg>
+                                                    <span>Ubicación</span>
+                                                </a>
+                                                <a href="#" class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                    <span>$</span> 200COP
+                                                </a>
+                                        <!-- end /. card title -->
+                                        <!-- start contact content -->
+                                        <div class="d-flex flex-wrap gap-3 mt-2 z-1">
+                                            <a  class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                <button type="submit" class="btn btn-primary btn-lg w-100" style="color: #000;
+                                                --bs-btn-bg: #fff;">Ver perfil</button>
+            
+                                            </a>
+                                            <a href="#" class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                <button type="submit" class="btn btn-primary btn-lg w-100">Consultar</button>
+            
+                                            </a>
+                                        </div>
+            
+                                        <!-- end contact content -->
+                                    </div>
+                                </div>
+                                <!-- end /. listing card -->
+                            </div>
+                            <div class="col-sm-4 col-lg-4 col-xl-4">
+                                <!-- start listing card -->
+                                <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                    <!-- start card link -->
+                                    <a href="#" class="stretched-link"></a>
+                                    <!-- end /. card link -->
+                                    <!-- start card image wrap -->
+                                    <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                        <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
+                                        
+                                        <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                            <a href="allspeciality.html" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- end /. card image wrap -->
+                                    <div class="d-flex flex-column h-100 position-relative p-3">
+                                        <div class="align-items-center bg-primary cat-icon d-flex justify-content-center position-absolute rounded-circle text-white"><i class="fa-solid fa-person-circle-plus"></i></div>
+                                        <div class="align-items-center d-flex flex-wrap gap-1 text-primary card-start mb-1">
+                                            <!-- start ratings -->
+                                            <i class="fa-solid fa-star"></i>
+                                            <!-- end /. ratings -->
+                                            <!-- start ratings counter text -->
+                                            <span class="fw-medium text-primary"><span class="fs-6 fw-semibold me-1">(4.5)</span>2,391 reviews</span>
+                                            <!-- end /. ratings counter text -->
+                                        </div>
+                                        <!-- start card title -->
+                                        <h4 class="fs-18 fw-semibold mb-0">
+                                            Especialidad
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
+                                                <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
+                                            </svg>
+                                        </h4>
+                                        <h5>Nombre del especialista</h5>
+                                                <p class="mb-0 small">Resumen de servicios</p>
+                                                <a href="#" class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#9b9b9b" class="bi bi-compass" viewBox="0 0 16 16">
+                                                        <path d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                                                        <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z" />
+                                                    </svg>
+                                                    <span>Ubicación</span>
+                                                </a>
+                                                <a href="#" class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                    <span>$</span> 200COP
+                                                </a>
+                                        <!-- end /. card title -->
+                                        <!-- start contact content -->
+                                        <div class="d-flex flex-wrap gap-3 mt-2 z-1">
+                                            <a  class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                <button type="submit" class="btn btn-primary btn-lg w-100" style="color: #000;
+                                                --bs-btn-bg: #fff;">Ver perfil</button>
+            
+                                            </a>
+                                            <a href="#" class="d-flex gap-2 align-items-center fs-13 fw-semibold">
+                                                <button type="submit" class="btn btn-primary btn-lg w-100">Consultar</button>
+            
+                                            </a>
+                                        </div>
+            
+                                        <!-- end contact content -->
+                                    </div>
+                                </div>
+                                <!-- end /. listing card -->
+                            </div>
+                        </div>
+                        <!-- start pagination -->
+                        <nav class="justify-content-center mt-5 pagination align-items-center">
+                            <a class="prev page-numbers" href="##">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z" />
+                                </svg>
+                                previous
+                            </a>
+                            <span class="page-numbers current">1</span>
+                            <a class="page-numbers" href="##">2</a>
+                            <a class="next page-numbers" href="##">
+                                next
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </nav>
+                        <!-- end /. pagination -->
                     </div>
-                    <!-- start pagination -->
-                    <nav class="justify-content-center mt-5 pagination align-items-center">
-                        <a class="prev page-numbers" href="##">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z" />
-                            </svg>
-                            previous
-                        </a>
-                        <span class="page-numbers current">1</span>
-                        <a class="page-numbers" href="##">2</a>
-                        <a class="next page-numbers" href="##">
-                            next
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-                            </svg>
-                        </a>
-                    </nav>
-                    <!-- end /. pagination -->
-                </div>
             </div>
         </div>
     </div>

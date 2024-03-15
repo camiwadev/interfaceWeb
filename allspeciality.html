@@ -125,19 +125,36 @@
                         <h2 class="fw-semibold text-center search-bar-title mb-0">Busqueda<br> por <span class="font-caveat text-primary">want</span></h2>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-5 col-xl-6">
+                <div class="col-md-3 col-lg-3 col-xl-3">
                     <div class="search-select-input has-icon has-icon-y position-relative">
                         <!-- input -->
-                        <input class="form-control" type="text" placeholder="Nombre del especialidad">
+                        <input class="form-control" type="text" placeholder="Directorio de especialista">
                        
                         
                     </div>
                 </div>
-                <div class="col-md-3 col-lg-2 col-xl-3 d-none d-lg-block">
+                <div class="col-md-3 col-lg-3 col-xl-3 d-none d-lg-block">
                     <!-- Start Search Select -->
                     <div class="search-select has-icon position-relative" style="padding: 22px 44px 22px 55px;">
                         <select class="select2 form-select" aria-label="Default select example" >
-                            <option selected>Selección de ciudad</option>
+                            <option selected>Seleccie el pais</option>
+                            <option value="1">Colombia</option>
+                            <option value="2">Argentina</option>
+                            <option value="3">Ecuador</option>
+                            <option value="4">México</option>
+                        </select>
+                        <svg class="form-icon-start position-absolute top-50 search-icon z-1 bi bi-geo-alt" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                        </svg>
+                    </div>
+                    <!-- /.End Search Select -->
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 d-none d-lg-block">
+                    <!-- Start Search Select -->
+                    <div class="search-select has-icon position-relative" style="padding: 22px 44px 22px 55px;">
+                        <select class="select2 form-select" aria-label="Default select example" >
+                            <option selected>Seleccione la ciudad</option>
                             <option value="1">Bogota</option>
                             <option value="2">Ciudad de México</option>
                             <option value="3">Quito</option>
@@ -150,7 +167,7 @@
                     </div>
                     <!-- /.End Search Select -->
                 </div>
-                <div class="col-md-3 col-lg-2 col-xl-3 d-none d-lg-block">
+                <div class="col-md-3 col-lg-3 col-xl-3 d-none d-lg-block">
                     <!-- Start Search Select -->
                     <div class="search-select has-icon position-relative" style="padding: 22px 44px 22px 55px;">
                         <select class="select2 form-select" aria-label="Default select example">
@@ -167,17 +184,17 @@
                     </div>
                     <!-- /.End Search Select -->
                 </div>
-                <div class="col-lg-3 col-md-4 col-mg-3 d-xl-none gap-3 gap-md-2 hstack justify-content-center">
+                <!-- <div class="col-lg-3 col-md-4 col-mg-3 d-xl-none gap-3 gap-md-2 hstack justify-content-center">
                     <a href="#" class="sidebarCollapse align-items-center d-flex justify-content-center filters-text fw-semibold gap-2">
                         <i class="fa-solid fa-arrow-up-short-wide fs-18"></i>
                         <span>Filtros</span>
                     </a>
-                   <!--  <div class="h-75 mt-auto vr d-md-none"></div>
+                    <div class="h-75 mt-auto vr d-md-none"></div>
                     <a href="#" id="mapCollapse" class="align-items-center d-flex justify-content-center filters-text fw-semibold gap-2">
                         <i class="fa-solid fa-map-location-dot fs-18"></i>
                         <span>Map</span>
-                    </a> -->
-                </div>
+                    </a> 
+                </div> -->
             </div>
         </div>
         
@@ -193,7 +210,7 @@
            
             <!-- end /. filter header -->
             <div class="sidebar-filters-body p-3 p-xl-4">
-                
+                <p><strong> Filtros de búsqueda avanzada</strong></p>
                 <div class="mb-4 border-bottom pb-4">
                     <div class="mb-3">
                         <h4 class="fs-5 fw-semibold mb-2">Especialidades</h4>
@@ -253,7 +270,7 @@
         <div class="items-content bg-light d-flex flex-column py-3 p-xl-4">
             
             <div class="d-flex flex-wrap align-items-center mb-3 gap-2">
-                <div class="col fs-18 text-nowrap"> <span class="fw-bold text-dark">9,069</span> Todas los especialidads</div>
+                <div class="col fs-18 text-nowrap"> <span class="fw-bold text-dark">9,069</span> Todos los especialistas</div>
                 <!-- start button group -->
                 <div class="border-0 card d-inline-flex flex-row flex-wrap gap-1 p-1 rounded-3 shadow-sm">
                     <a href="allspeciality.html" class="btn btn-light btn-sm px-2 py-1"><i class="fa-solid fa-border-all"></i></a>
