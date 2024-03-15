@@ -7249,7 +7249,7 @@ fieldset:disabled .btn {
  border:var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important
 }
 .border-0 {
- border:0!important
+ border:0.2!important
 }
 .border-top {
  border-top:var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important
@@ -8004,7 +8004,8 @@ fieldset:disabled .btn {
 }
 .text-primary {
  --bs-text-opacity:1;
- color:#2a8c4a !important
+ color:#198754 !important;
+ /* padding-left: 5%; */
 }
 .text-secondary {
  --bs-text-opacity:1;
@@ -8042,6 +8043,10 @@ fieldset:disabled .btn {
  --bs-text-opacity:1;
  color:rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important
 }
+.text-green {
+    --bs-text-opacity:1;
+    color:#2a8c4a!important
+   }
 .text-body {
  --bs-text-opacity:1;
  color:rgba(var(--bs-body-color-rgb),var(--bs-text-opacity))!important
@@ -11363,7 +11368,7 @@ fieldset:disabled .btn {
   font-size:2rem!important
  }
  .fs-3 {
-  font-size:1.75rem!important
+  font-size:1rem!important
  }
  .fs-4 {
   font-size:1.5rem!important
