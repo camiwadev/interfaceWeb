@@ -24,7 +24,6 @@
     <meta property="twitter:description" content="Somos la plataforma que te permite resevar citas medicas a cualquier lugar que vayas, medicos expertos certificados!!" />
     <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
 
-<!-- Meta Tags Generated with https://metatags.io -->
     <link href="assets/plugins/aos/aos.min.css" rel="stylesheet">
     <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/plugins/fontawesome/css/all.min.css" rel="stylesheet">
@@ -40,9 +39,7 @@
 </head>
 
 <body>
-    <!-- start navbar -->
-  
-    <!-- end /. navbar -->
+    <!-- start header -->
     <div class="border-0 card header rounded-0 sticky-top">
         <!-- start navbar -->
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -117,48 +114,43 @@
         <!-- end /. navbar -->
         <!-- start header search bar  -->
         <div class="border-bottom border-top p-3 p-xl-0 search-bar">
-            
             <div class="row g-3 g-xl-0">
                 <!-- search bar title -->
                 <div class="col-12 d-xl-none">
                     <div class="collapse show" id="CollapseText">
-                        <h2 class="fw-semibold text-center search-bar-title mb-0">Busqueda<br> por <span class="font-caveat text-primary">want</span></h2>
+                        <h2 class="fw-semibold text-center search-bar-title mb-0">Busqueda <span class="font-caveat text-primary">avanzada</span></h2>
                     </div>
                 </div>
-                <div class="col-md-3 col-lg-3 col-xl-3">
+                <div class="col-md-8 col-lg-5 col-xl-6">
                     <div class="search-select-input has-icon has-icon-y position-relative">
                         <!-- input -->
                         <input class="form-control" type="text" placeholder="Directorio de especialista">
-                       
+                        <!-- icon -->
                         
-                    </div>
-                </div>
-                <div class="col-md-3 col-lg-3 col-xl-3 d-none d-lg-block">
-                    <!-- Start Search Select -->
-                    <div class="search-select has-icon position-relative" style="padding: 22px 44px 22px 55px;">
-                        <select class="select2 form-select" aria-label="Default select example" >
-                            <option selected>Seleccie el pais</option>
+                        <!-- icon -->
+                        <svg class="form-icon-end position-absolute top-50 bi bi-crosshair" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#9b9b9b" viewBox="0 0 16 16">
+                            <path d="M8.5.5a.5.5 0 0 0-1 0v.518A7.001 7.001 0 0 0 1.018 7.5H.5a.5.5 0 0 0 0 1h.518A7.001 7.001 0 0 0 7.5 14.982v.518a.5.5 0 0 0 1 0v-.518A7.001 7.001 0 0 0 14.982 8.5h.518a.5.5 0 0 0 0-1h-.518A7.001 7.001 0 0 0 8.5 1.018V.5Zm-6.48 7A6.001 6.001 0 0 1 7.5 2.02v.48a.5.5 0 0 0 1 0v-.48a6.001 6.001 0 0 1 5.48 5.48h-.48a.5.5 0 0 0 0 1h.48a6.002 6.002 0 0 1-5.48 5.48v-.48a.5.5 0 0 0-1 0v.48A6.001 6.001 0 0 1 2.02 8.5h.48a.5.5 0 0 0 0-1h-.48ZM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
+                        </svg>
+                        <!-- select -->
+                        <select class="input-select position-absolute top-50">
+                            <option selected>Pais</option>
                             <option value="1">Colombia</option>
                             <option value="2">Argentina</option>
                             <option value="3">Ecuador</option>
                             <option value="4">México</option>
                         </select>
-                        <svg class="form-icon-start position-absolute top-50 search-icon z-1 bi bi-geo-alt" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
-                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
-                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                        </svg>
                     </div>
-                    <!-- /.End Search Select -->
                 </div>
-                <div class="col-md-3 col-lg-3 col-xl-3 d-none d-lg-block">
+                <div class="col-md-2 col-lg-2 col-xl-3 d-none d-lg-block">
                     <!-- Start Search Select -->
-                    <div class="search-select has-icon position-relative" style="padding: 22px 44px 22px 55px;">
-                        <select class="select2 form-select" aria-label="Default select example" >
+                    <div class="search-select has-icon position-relative">
+                        <select class="select2 form-select" aria-label="Default select example">
                             <option selected>Seleccione la ciudad</option>
                             <option value="1">Bogota</option>
                             <option value="2">Ciudad de México</option>
                             <option value="3">Quito</option>
                             <option value="4">Buenos Aires</option>
+                            
                         </select>
                         <svg class="form-icon-start position-absolute top-50 search-icon z-1 bi bi-geo-alt" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
                             <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
@@ -167,14 +159,15 @@
                     </div>
                     <!-- /.End Search Select -->
                 </div>
-                <div class="col-md-3 col-lg-3 col-xl-3 d-none d-lg-block">
+                <div class="col-md-2 col-lg-2 col-xl-3 d-none d-lg-block">
                     <!-- Start Search Select -->
-                    <div class="search-select has-icon position-relative" style="padding: 22px 44px 22px 55px;">
+                    <div class="search-select has-icon position-relative">
                         <select class="select2 form-select" aria-label="Default select example">
                             <option selected>Seleccione Especialidad</option>
                             <option value="1">Yoga</option>
                             <option value="2">Medicina natural</option>
                             <option value="3">Terapia</option>
+                           
                         </select>
                         <!-- <i class="fa-solid fa-sack-dollar fs-18 search-icon"></i> -->
                         <svg class="form-icon-start position-absolute top-50 search-icon z-1 bi bi-app-indicator" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
@@ -184,30 +177,35 @@
                     </div>
                     <!-- /.End Search Select -->
                 </div>
-                <!-- <div class="col-lg-3 col-md-4 col-mg-3 d-xl-none gap-3 gap-md-2 hstack justify-content-center">
-                    <a href="#" class="sidebarCollapse align-items-center d-flex justify-content-center filters-text fw-semibold gap-2">
+                <div class="col-lg-3 col-md-4 col-mg-3 d-xl-none gap-3 gap-md-2 hstack justify-content-center">
+                    <a href="allspeciality.html#" class="sidebarCollapse align-items-center d-flex justify-content-center filters-text fw-semibold gap-2">
                         <i class="fa-solid fa-arrow-up-short-wide fs-18"></i>
                         <span>Filtros</span>
                     </a>
-                    <div class="h-75 mt-auto vr d-md-none"></div>
-                    <a href="#" id="mapCollapse" class="align-items-center d-flex justify-content-center filters-text fw-semibold gap-2">
+                    <!-- <div class="h-75 mt-auto vr d-md-none"></div>
+                    <a href="allspeciality.html#" id="mapCollapse" class="align-items-center d-flex justify-content-center filters-text fw-semibold gap-2">
                         <i class="fa-solid fa-map-location-dot fs-18"></i>
                         <span>Map</span>
-                    </a> 
-                </div> -->
+                    </a> -->
+                </div>
             </div>
         </div>
-        
         <!-- end /. header search bar  -->
-        
     </div>
-    
-    
+    <!-- end /. header -->
     <div class="map-wrapper">
-        
         <!-- start sidebar filters -->
         <div class="sidebar-filters js-sidebar-filters-mobile">
-           
+            <!-- filter header -->
+            <div class="border-bottom d-flex justify-content-between align-items-center p-3 sidebar-filters-header d-xl-none">
+                <div class="align-items-center btn-icon d-flex filter-close justify-content-center rounded-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+                    </svg>
+                </div>
+                <span class="fs-3 fw-semibold">Filtros</span>
+                <span class="text-primary fw-medium">Limpiar</span>
+            </div>
             <!-- end /. filter header -->
             <div class="sidebar-filters-body p-3 p-xl-4">
                 <p><strong> Filtros de búsqueda avanzada</strong></p>
@@ -264,7 +262,6 @@
                 <!-- end /. clear filters -->
             </div>
         </div>
-       
         <!-- end /. sidebar filters -->
         <!-- start items content -->
         <div class="items-content bg-light d-flex flex-column py-3 p-xl-4">
@@ -893,63 +890,9 @@
             <!-- end /. pagination -->
         </div>
         <!-- end /. items content -->
-        <!-- start map content -->
-       <!--  <div class="map-content">
-            <button type="button" class="sidebarCollapse collapseText btn btn-primary ms-4 mt-4 position-absolute start-0 top-0 align-items-center gap-2 hstack filters-text gap-1 d-none d-xl-flex">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-sort-alpha-up" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M10.082 5.629 9.664 7H8.598l1.789-5.332h1.234L13.402 7h-1.12l-.419-1.371h-1.781zm1.57-.785L11 2.687h-.047l-.652 2.157h1.351z"></path>
-                    <path d="M12.96 14H9.028v-.691l2.579-3.72v-.054H9.098v-.867h3.785v.691l-2.567 3.72v.054h2.645V14zm-8.46-.5a.5.5 0 0 1-1 0V3.707L2.354 4.854a.5.5 0 1 1-.708-.708l2-1.999.007-.007a.498.498 0 0 1 .7.006l2 2a.5.5 0 1 1-.707.708L4.5 3.707V13.5z"></path>
-                </svg>
-                <span>Ocultar filtro</span>
-            </button>
-            <div class="d-flex inner-wrap--top p-3 position-absolute start-0 top-0 w-100 d-xl-none">
-                
-                <div class="align-items-center d-flex flex-shrink-0 justify-content-center map-close-icon rounded-circle">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
-                    </svg>
-                </div>
-               
-                <div class="search-select-input has-icon has-icon-y position-relative flex-grow-1 ms-2">
-                    
-                    <input class="form-control" type="text" placeholder="What are you looking for?">
-                   
-                    <svg class="form-icon-start position-absolute top-50 bi bi-pin-map-fill" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z" />
-                        <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z" />
-                    </svg>
-                   
-                    <svg class="form-icon-end position-absolute top-50 bi bi-crosshair" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#9b9b9b" viewBox="0 0 16 16">
-                        <path d="M8.5.5a.5.5 0 0 0-1 0v.518A7.001 7.001 0 0 0 1.018 7.5H.5a.5.5 0 0 0 0 1h.518A7.001 7.001 0 0 0 7.5 14.982v.518a.5.5 0 0 0 1 0v-.518A7.001 7.001 0 0 0 14.982 8.5h.518a.5.5 0 0 0 0-1h-.518A7.001 7.001 0 0 0 8.5 1.018V.5Zm-6.48 7A6.001 6.001 0 0 1 7.5 2.02v.48a.5.5 0 0 0 1 0v-.48a6.001 6.001 0 0 1 5.48 5.48h-.48a.5.5 0 0 0 0 1h.48a6.002 6.002 0 0 1-5.48 5.48v-.48a.5.5 0 0 0-1 0v.48A6.001 6.001 0 0 1 2.02 8.5h.48a.5.5 0 0 0 0-1h-.48ZM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
-                    </svg>
-                    
-                    <select class="input-select position-absolute top-50">
-                        <option selected>0.5 km</option>
-                        <option value="1">1 km</option>
-                        <option value="2">5 km</option>
-                        <option value="3">10 km</option>
-                    </select>
-                </div>
-            </div>
-            
-            <div class="all-filters-wrap bottom-0 mb-5 position-absolute start-0 text-center w-100 d-xl-none">
-                <div class="align-items-center all-filters d-inline-flex fw-semibold gap-2 justify-content-center px-4 py-3 rounded-pill">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-sort-alpha-up" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M10.082 5.629 9.664 7H8.598l1.789-5.332h1.234L13.402 7h-1.12l-.419-1.371h-1.781zm1.57-.785L11 2.687h-.047l-.652 2.157h1.351z"></path>
-                        <path d="M12.96 14H9.028v-.691l2.579-3.72v-.054H9.098v-.867h3.785v.691l-2.567 3.72v.054h2.645V14zm-8.46-.5a.5.5 0 0 1-1 0V3.707L2.354 4.854a.5.5 0 1 1-.708-.708l2-1.999.007-.007a.498.498 0 0 1 .7.006l2 2a.5.5 0 1 1-.707.708L4.5 3.707V13.5z"></path>
-                    </svg>
-                    <span>Todo</span>
-                </div>
-            </div>
-            
-            <div id="mapCanvasTwo" class="map-grid map-full shadow-left"></div>
-           
-        </div> -->
-        <!-- end /. map content -->
+        
     </div>
-    
- 
-
+    <!-- start footer -->
     <footer class="footer-dark main-footer overflow-hidden position-relative pt-5">
         <div class="container pt-4">
             <div class="py-5">
@@ -1045,9 +988,9 @@
             </div>
         </div>
     </footer>
-   
     <!-- end /. footer -->
     <!-- Optional JavaScript -->
+    <script src="assets/plugins/jQuery/jquery.min.js"></script>
     <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/plugins/aos/aos.min.js"></script>
     <script src="assets/plugins/macy/macy.js"></script>
@@ -1064,8 +1007,10 @@
     <script src="assets/plugins/ion.rangeSlider/ion.rangeSlider.min.js"></script>
     <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="assets/plugins/select2/select2.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4iuUg1YDRIBRZ5e-jdssfqDuT9VLiOnY"></script>
     <!-- Custom script for this template -->
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/listing-map.js"></script>
 </body>
 
 </html>
