@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Camiwa - registro</title>
+	<link rel="shortcut icon" href="../assets/images/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="assets/css/animate.min.css">
+	<!-- <link rel="stylesheet" href="assets/css/fontawesome-all.css"> -->
+	    <link href="../assets/plugins/fontawesome/css/all.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/colors/switch.css">
+	<!-- Color Alternatives -->
+	<link href="assets/css/colors/color-2.css" rel="alternate stylesheet" type="text/css" title="color-2">
+	<link href="assets/css/colors/color-3.css" rel="alternate stylesheet" type="text/css" title="color-3">
+	<link href="assets/css/colors/color-4.css" rel="alternate stylesheet" type="text/css" title="color-4">
+	<link href="assets/css/colors/color-5.css" rel="alternate stylesheet" type="text/css" title="color-5">
+</head>
+
+<body>
+
+	
+	<div class="clearfix"></div>
+
+	
+	<div class="wrapper">
+		<div class="steps-area steps-area-fixed">
+			<div class="image-holder">
+				<img src="assets/img/side-img.jpg" alt="">
+			</div>
+			<div class="steps clearfix">
+				<ul class="tablist multisteps-form__progress">
+					<li class="multisteps-form__progress-btn js-active current">
+						<span>1</span>
+					</li>
+					<li class="multisteps-form__progress-btn">
+						<span>2</span>
+					</li>
+					<li class="multisteps-form__progress-btn">
+						<span>3</span>
+					</li>
+					<li class="multisteps-form__progress-btn">
+						<span>4</span>
+					</li>
+					<li class="multisteps-form__progress-btn last">
+						<span>5</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<form class="multisteps-form__form" action="index.html#" id="wizard" method="POST">
+			<div class="form-area position-relative">
+				<!-- div 1 -->
+				<div class="multisteps-form__panel js-active" data-animation="slideHorz">
+					<div class="wizard-forms">
+						<div class="inner pb-100 clearfix">
+							<div class="form-content pera-content">
+								<div class="step-inner-content">
+									<span class="step-no">Paso 1</span>
+									<!-- <h2>Que tipo de usuario quieres ser?</h2>
+									<p>GRACIAS POR UNIRTE A CAMIWA, SELECCIONA CUIDADOSAMENTE LAS OPCIONES DE REGISTRO	.</p>
+									<div class="step-box">
+										<div class="row">
+											<div class="col-md-6 col-sm-6">
+												<label class="step-box-content bg-white text-center relative-position active">
+													<span class="step-box-icon">
+														<img src="assets/img/d1.png" alt="">
+													</span>
+													<span class="step-box-text">
+														CLIENTE
+													</span>
+													<span class="service-check-option">
+														<span><input type="radio" name="service_name" value="Corporate Services" checked></span>
+													</span>
+												</label>
+											</div>
+											<div class="col-md-4">
+												<label class="step-box-content bg-white text-center relative-position">
+													<span class="step-box-icon">
+														<img src="assets/img/d3.png" alt="">
+													</span>
+													<span class="step-box-text">
+														ESPECILISTA
+													</span>
+													<span class="service-check-option">
+														<span><input type="radio" name="service_name" value="Development Services"></span>
+													</span>
+												</label>
+											</div>
+										</div>
+										<div class="row conditional" data-condition="#condition1 && service_name == 'Freelancing Services'">
+											<div class="col-md-12 form-inner-area">
+												<label for="field"><h3>Indique su especialidad</h3></label>
+												<input type="text" name="field" class="form-control" minlength="2" placeholder="Write Here">
+											</div>
+										</div>
+									</div> -->
+									<h2>Bienvenido al portal de especialidades area de salud y bienestar. CAMIWA</h2>
+									<p>Por favor lea cuidadosamente y llene el formulario de registro.</p>
+									
+									<div class="form-inner-area">
+										<input type="text" name="full_name" class="form-control " minlength="2" placeholder="Nombre completo *" >
+										<input type="email" name="email" class="form-control " placeholder="Correo *" >
+										<input type="text" name="phone" placeholder="Teléfono">
+										<input type="text" name="phone" placeholder="Direeción de habitación">
+										<input type="text" name="phone" placeholder="Direeción de consultorio">
+										<input type="text" name="phone" placeholder="Ciudad">
+										<input type="text" name="phone" placeholder="Pais">
+									</div>
+									<div class="gender-selection">
+										<h3>Genero:</h3>
+										<label>
+											<input type="radio" name="gender" value="Male">
+											<span class="checkmark"></span>Masculino
+										</label>
+										<label>
+											<input type="radio" name="gender" value="Female">
+											<span class="checkmark"></span>Femenino
+										</label>
+										<label>
+											<input type="radio" name="gender" value="Female">
+											<span class="checkmark"></span>Otro
+										</label>
+									</div>
+									<div class="upload-documents">
+										<h3>Cargue su documento de identidad:</h3>
+										<div class="upload-araa bg-white">
+											<input type="hidden" value="" name="fileContent" id="fileContent">
+											<input type="hidden" value="" name="filename" id="filename">
+											<div class="upload-icon float-left">
+												<i class="fas fa-cloud-upload-alt"></i>
+											</div>
+											<div class="upload-text">
+												<span>( Maximo tamaño por documento)</span>
+											</div>
+											<div class="upload-option text-center">
+												<label for="attach">Subir documentos</label>
+												<input id="attach" style="visibility:hidden;" type="file">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /.inner -->
+						<div class="actions">
+							<ul>
+								<li class="disable" aria-disabled="true"><span class="js-btn-next" title="NEXT">Backward <i class="fa fa-arrow-right"></i></span></li>
+								<li><span class="js-btn-next" title="NEXT">Sig. <i class="fa fa-arrow-right"></i></span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- div 2 -->
+				<div class="multisteps-form__panel" data-animation="slideHorz">
+					<div class="wizard-forms">
+						<div class="inner pb-100 clearfix">
+							<div class="form-content pera-content">
+								<div class="step-inner-content">
+									<span class="step-no bottom-line">Paso 2</span>
+									<div class="step-progress float-right">
+										<span>2 de 5 completado</span>
+										<div class="step-progress-bar">
+											<div class="progress">
+												<div class="progress-bar" style="width:40%"></div>
+											</div>
+										</div>
+									</div>
+									<h2>Información profesional</h2>
+									<div class="form-inner-area">
+										<input type="text" name="full_name" class="form-control " minlength="3" placeholder="Profesion *" >
+										<input type="text" name="full_name" class="form-control " minlength="3" placeholder="Area de estudio *" >
+										<input type="text" name="full_name" class="form-control " minlength="3" placeholder="Universidad de egreso *" >
+										<input type="text" name="full_name" class="form-control " minlength="3" placeholder="Año de egreso *" >
+									</div>
+									
+									<div class="language-select">
+										<p>Seleccione la especialidad a la que pertenece: </p>
+										<select name="languages">
+											<option>Especialidad</option>
+											<option>Especialidad</option>
+											<option>Especialidad</option>
+											<option>Especialidad</option>
+											<option>Especialidad</option>
+										</select>
+									</div>
+									<div class="upload-documents">
+										<h3>Cargue sus certificados:</h3>
+										<div class="upload-araa bg-white">
+											<input type="hidden" value="" name="fileContent" id="fileContent">
+											<input type="hidden" value="" name="filename" id="filename">
+											<div class="upload-icon float-left">
+												<i class="fas fa-cloud-upload-alt"></i>
+											</div>
+											<div class="upload-text">
+												<span>( Maximo tamaño por documento)</span>
+											</div>
+											<div class="upload-option text-center">
+												<label for="attach">Subir documentos</label>
+												<input id="attach" style="visibility:hidden;" type="file">
+											</div>
+										</div>
+									</div>
+
+									<div class="comment-box">
+										<p><i class="fas fa-plus"></i> Indique los servicio que ofrece</p>
+										<textarea name="full_comments" placeholder="Servicios"></textarea>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /.inner -->
+						<div class="actions">
+							<ul>
+								<li><span class="js-btn-prev" title="BACK"><i class="fa fa-arrow-left"></i> Ant. </span></li>
+								<li><span class="js-btn-next" title="NEXT">Sig. <i class="fa fa-arrow-right"></i></span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- div 3 -->
+				<div class="multisteps-form__panel" data-animation="slideHorz">
+					<div class="wizard-forms">
+						<div class="inner pb-100 clearfix">
+							<div class="form-content pera-content">
+								<div class="step-inner-content">
+									<span class="step-no bottom-line">Paso 3</span>
+									<div class="step-progress float-right">
+										<span>3 de 5 completado</span>
+										<div class="step-progress-bar">
+											<div class="progress">
+												<div class="progress-bar" style="width:70%"></div>
+											</div>
+										</div>
+									</div>
+									<h2>Información laboral</h2>
+									<p>Ingrese la información necesaria para la atención de sus clientes.</p>
+									<div class="step-content-area">
+										<div class="budget-area">
+											<p><i class="fas fa-clock"></i> Horarios</p>
+											<select name="budget">
+												<option>Todo los dias</option>
+												<option>2 dias por semana</option>
+											</select>
+										</div>
+										
+										<div class="budget-area">
+											<div class="opti-list">
+												<p>Que dias atendera?</p>
+												<ul class="d-flex">
+													<li class="bg-white"><input type="checkbox" name="code_opti2" value="Mobile APP">LU</li><li class="bg-white"><input type="checkbox" name="code_opti2" value="Mobile APP">MA</li><li class="bg-white"><input type="checkbox" name="code_opti2" value="Mobile APP">MI</li><li class="bg-white"><input type="checkbox" name="code_opti2" value="Mobile APP">JU</li><li class="bg-white"><input type="checkbox" name="code_opti2" value="Mobile APP">VI</li><li class="bg-white"><input type="checkbox" name="code_opti2" value="Mobile APP">SA</li><li class="bg-white"><input type="checkbox" name="code_opti2" value="Mobile APP">DO</li>
+													
+												</ul>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- ./inner -->
+						<div class="actions">
+							<ul>
+								<li><span class="js-btn-prev" title="BACK"><i class="fa fa-arrow-left"></i> Ant. </span></li>
+								<li><span class="js-btn-next" title="NEXT">Sig. <i class="fa fa-arrow-right"></i></span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- div 4 -->
+				<div class="multisteps-form__panel" data-animation="slideHorz">
+					<div class="wizard-forms">
+						<div class="inner pb-100 clearfix">
+							<div class="form-content pera-content">
+								<div class="step-inner-content">
+									<span class="step-no bottom-line">Paso 4</span>
+									<div class="step-progress float-right">
+										<span>4 de 5 completado</span>
+										<div class="step-progress-bar">
+											<div class="progress">
+												<div class="progress-bar" style="width:100%"></div>
+											</div>
+										</div>
+									</div>
+									<h2>Membresia</h2>
+									<p>Información para continuar en la plataforma</p>
+									<div class="step-content-field">
+										<div class="plan-area">
+											<div class="plan-icon-text text-center active">
+												<div class="plan-icon">
+													<i class="fas fa-chess-queen"></i>
+												</div>
+												<div class="plan-text">
+													<h3>Plan ilimitado</h3>
+													<p>Info</p>
+													<input type="radio" name="your_plan" value="Unlimited Plan" checked="">
+												</div>
+											</div>
+											<div class="plan-icon-text text-center">
+												<div class="plan-icon">
+													<i class="fas fa-cubes"></i>
+												</div>
+												<div class="plan-text">
+													<h3>Plan premium</h3>
+													<p>Info</p>
+													<input type="radio" name="your_plan" value="Unlimited Plan">
+												</div>
+											</div>
+										</div>
+										<div class="budget-area">
+											<p>Deseas publicitar sus servicios y promociones?</p>
+											<div class="opti-list">
+												<ul class="d-flex">
+													<li class="bg-white active"><input type="checkbox" name="code_opti1" value="Semantic coding" checked>En el perfil</li>
+													<li class="bg-white"><input type="checkbox" name="code_opti2" value="Mobile APP">En el inicio de la plataforma</li>
+													
+												</ul>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /.inner -->
+						<div class="actions">
+							<ul>
+								<li><span class="js-btn-prev" title="BACK"><i class="fa fa-arrow-left"></i> Ant. </span></li>
+								<li><span class="js-btn-next" title="NEXT">Sig. <i class="fa fa-arrow-right"></i></span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- div 5 -->
+				<div class="multisteps-form__panel" data-animation="slideHorz">
+					<div class="wizard-forms">
+						<div class="inner pb-100 clearfix">
+							<div class="form-content pera-content">
+								<div class="step-inner-content">
+									<span class="step-no bottom-line">Paso 5</span>
+									<div class="step-progress float-right">
+										<span>5 de 5 completado</span>
+										<div class="step-progress-bar">
+											<div class="progress">
+												<div class="progress-bar" style="width:100%"></div>
+											</div>
+										</div>
+									</div>
+									<h2>Felicidades!!</h2>
+									<p>Hemos recibido su información, comprobaremos y le haremos participe para ñla activación de su cuenta</p>
+									
+								</div>
+							</div>
+						</div>
+						<!-- /.inner -->
+						<div class="actions">
+							<ul>
+								<li><span class="js-btn-prev" title="BACK"><i class="fa fa-arrow-left"></i> Ant. </span></li>
+								<li><button  title="NEXT"><a href="../index.html">Fin</a> <i class="fa fa-arrow-right"></i></button></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<script src="assets/js/jquery.validate.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/conditionize.flexible.jquery.min.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/switch.js"></script>
+	<script>
+		$("#files").change(function() {
+			filename = this.files[0].name
+			// console.log(filename);
+		});
+
+		function UploadFile() {
+			var reader = new FileReader();
+			var file = document.getElementById('attach').files[0];
+			reader.onload = function() {
+				document.getElementById('fileContent').value = reader.result;
+				document.getElementById('filename').value = file.name;
+				document.getElementById('wizard').submit();
+			}
+			reader.readAsDataURL(file);
+		}
+
+		$(document).ready(function() {
+			$('.conditional').conditionize();
+		});
+	</script>
+</body>
+
+</html>
