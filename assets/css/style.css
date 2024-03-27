@@ -4046,7 +4046,7 @@ hr {
 
 @media(min-width: 768px) {
     .numbers-wrapper {
-        background-image: url("../images/line.svg");
+        background-image: url("../images/line.png");
         background-position: 50% 54px;
         background-size: 73%;
     }
